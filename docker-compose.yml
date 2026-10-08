@@ -11,7 +11,7 @@ services:
     ports:
       - "5434:5432"
     volumes:
-      - pgdata_liga_sudoers:/var/lib/postgresql/data
+      - pgdata_liga_sudoers:/var/lib/postgresql
       - ./modelagem/ddl/liga_sudoers.sql:/docker-entrypoint-initdb.d/liga_sudoers.sql
 
   postgres_liga_sudoers_dw:
