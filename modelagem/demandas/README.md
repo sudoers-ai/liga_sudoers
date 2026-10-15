@@ -1,5 +1,5 @@
 # Data Modeling
-![Old School](old_school.png "Old School")
+![Old School](../datawarehouse_simulator/old_school.png "Old School")
 
 Bem-vindo ao Mapa do Engenheiro de Dados, módulo Data Modeling! Este programa prático e desafiador recria situações reais enfrentadas por profissionais da área de dados. Aqui, você aprenderá a construir modelos transacionais e dimensionais, além de desenvolver fluxos de ETL para movimentar dados entre esses dois mundos.
 

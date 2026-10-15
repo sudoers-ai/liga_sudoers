@@ -19,8 +19,9 @@ Este repositório visa mostrar o processo trandicional de geração de dados em 
 
   [Vídeo Explicativo](https://youtu.be/Kc-mmy8eMcA)
 
-📺 Recursos complementares:
-- [Curso: do Transacional ao Big Data (playlist completa)](https://www.youtube.com/watch?v=ynrL9EMXX5A&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT)  
+## 📺 Recursos complementares
+
+O curso [do Transacional ao Big Data](https://www.youtube.com/watch?v=ynrL9EMXX5A&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT) acompanha a Jornada inteira em vídeo. A introdução e o Mapa 01 usam este repositório; a continuação (Big Data, Delta Lake, DBT, Airflow e governança) usa o [`jornada_dados`](https://github.com/sudoers-ai/jornada_dados).
 
 **Introdução à Jornada**
 - [Aula 01 - Introdução: do Transacional ao Big Data](https://www.youtube.com/watch?v=ynrL9EMXX5A&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=1)  
@@ -47,7 +48,19 @@ Este repositório visa mostrar o processo trandicional de geração de dados em 
 - [Aula 09 - OLTP vs OLAP](https://www.youtube.com/watch?v=gELwHl7hJEM&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=20)  
 - [Aula 10 - Dashboard](https://www.youtube.com/watch?v=abdkaZMI46U&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=21)  
 
-A continuação do curso (Big Data, Delta Lake, DBT, Airflow e governança) está no repositório [jornada_dados](https://github.com/sudoers-ai/jornada_dados).
+A playlist [Data Modeling](https://www.youtube.com/watch?v=Kc-mmy8eMcA&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8) mostra este mesmo ambiente em vídeos curtos: do DER do transacional até o dashboard analítico, passando pelo DW e pelo ETL no Apache Hop.
+
+**Data Modeling — este ambiente, passo a passo**
+- [Data Modeling 01 - Introdução ao ambiente](https://www.youtube.com/watch?v=Kc-mmy8eMcA&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=1)  
+- [Data Modeling 02 - DER e ambiente transacional](https://www.youtube.com/watch?v=_fgJFmmQVaU&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=3)  
+- [Data Modeling 03 - Entendendo o transacional e suas limitações na modelagem analítica](https://www.youtube.com/watch?v=5o1Dxz91rKY&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=4)  
+- [Data Modeling 04 - Dashboards operacionais](https://www.youtube.com/watch?v=ZLtfLNKB3l4&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=5)  
+- [Data Modeling 05 - Avançando para uma modelagem dimensional](https://www.youtube.com/watch?v=DZi_7rLBguk&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=6)  
+- [Data Modeling 06 - Construindo meu Data Warehouse (DW)](https://www.youtube.com/watch?v=7iB8tvWbVpw&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=7)  
+- [Data Modeling 07 - O poder do ETL e do SQL para manipular os dados](https://www.youtube.com/watch?v=DHinno_tFmc&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=8)  
+- [Data Modeling 08 - Movendo dados com ETL](https://www.youtube.com/watch?v=QoO1Q0JsrBs&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=9)  
+- [Data Modeling 09 - Brincando com as ferramentas de BI](https://www.youtube.com/watch?v=BgMohyMNDxo&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=10)  
+- [Data Modeling 10 - Fazendo dashboards analíticos](https://www.youtube.com/watch?v=pW93kToeiUE&list=PLD3-a_5KsN3mBrcfHfB8i3erZf_9eqfw8&index=11)  
 
 Deixe seu like e comentário nos vídeos do YouTube, isso ajuda e incentiva nosso trabalho.
 
