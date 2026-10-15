@@ -19,6 +19,38 @@ Este repositório visa mostrar o processo trandicional de geração de dados em 
 
   [Vídeo Explicativo](https://youtu.be/Kc-mmy8eMcA)
 
+📺 Recursos complementares:
+- [Curso: do Transacional ao Big Data (playlist completa)](https://www.youtube.com/watch?v=ynrL9EMXX5A&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT)  
+
+**Introdução à Jornada**
+- [Aula 01 - Introdução: do Transacional ao Big Data](https://www.youtube.com/watch?v=ynrL9EMXX5A&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=1)  
+- [Aula 02 - Usando o repositório Git](https://www.youtube.com/watch?v=wpVAiUiqTFQ&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=2)  
+- [Aula 03 - Rodando Docker](https://www.youtube.com/watch?v=JjW6LEd0ExM&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=3)  
+- [Aula 04 - Um pouco de história dos dados](https://www.youtube.com/watch?v=AXk_OtuqO8E&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=4)  
+- [Aula 05 - Mitos e verdades no mundo dos dados](https://www.youtube.com/watch?v=z9XmbYXEZR8&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=5)  
+- [Aula 06 - Estudo de caso e história de projetos reais](https://www.youtube.com/watch?v=FThS6l5Q270&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=6)  
+- [Aula 07 - Evolução do Engenheiro de Dados](https://www.youtube.com/watch?v=4GNSD_ycyh8&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=7)  
+- [Aula 08 - O papel do Engenheiro de Dados](https://www.youtube.com/watch?v=ACSPII_4x1k&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=8)  
+- [Aula 09 - Perfil do Engenheiro de Dados](https://www.youtube.com/watch?v=Bkkk_ykCvTA&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=9)  
+- [Aula 10 - Uso da Cloud](https://www.youtube.com/watch?v=jYb3bO_-6sA&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=10)  
+- [Aula 11 - O dia a dia do Engenheiro de Dados](https://www.youtube.com/watch?v=GXz5BNzqZlQ&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=11)  
+
+**Mapa Engenharia de Dados 01 — Transacional e Dimensional (este repositório)**
+- [Aula 01 - Roadmap de aprendizado](https://www.youtube.com/watch?v=5kRAXMmogT4&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=12)  
+- [Aula 02 - Transacional](https://www.youtube.com/watch?v=e5jm15ui1T0&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=13)  
+- [Aula 03 - A importância do ACID](https://www.youtube.com/watch?v=3GlHqI0LP9w&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=14)  
+- [Aula 04 - Limitação do Transacional](https://www.youtube.com/watch?v=0jdFniqu-pE&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=15)  
+- [Aula 05 - Dimensional](https://www.youtube.com/watch?v=xNRn1fO6GHY&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=16)  
+- [Aula 06 - DW Local](https://www.youtube.com/watch?v=VWcZICFUXks&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=17)  
+- [Aula 07 - DW Externo](https://www.youtube.com/watch?v=YvG3cfjZTPo&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=18)  
+- [Aula 08 - Apache Hop](https://www.youtube.com/watch?v=2sKr_Ok6o-M&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=19)  
+- [Aula 09 - OLTP vs OLAP](https://www.youtube.com/watch?v=gELwHl7hJEM&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=20)  
+- [Aula 10 - Dashboard](https://www.youtube.com/watch?v=abdkaZMI46U&list=PLD3-a_5KsN3kBwoeBT78q1ZyARwtwhjwT&index=21)  
+
+A continuação do curso (Big Data, Delta Lake, DBT, Airflow e governança) está no repositório [jornada_dados](https://github.com/sudoers-ai/jornada_dados).
+
+Deixe seu like e comentário nos vídeos do YouTube, isso ajuda e incentiva nosso trabalho.
+
 
 ## Estrutura da Fraude
 
