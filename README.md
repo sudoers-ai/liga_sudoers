@@ -14,8 +14,8 @@ Este repositório visa mostrar o processo trandicional de geração de dados em 
   * 1 ambiente com Metabase para construção de dashboards que serão usados para analytics. 
   
   Dentro do repositório teremos os scripts em Python que irão simular a entrada de dados:
-  * liga_sudoers_historico.py - Gera dados históricos com pedidos com data retroativas, não gera novos produtos nem novos clientes. Gera 1% de dados que serão considerados fraude para treinamento do modelo. 
-  * liga_sudoers_streaming.py - Gera dados streamind com pedidos com data atual, gera novos clientes e registra novos pedidos. Gera 5% de dados que serão considerados fraude para treinamento do modelo. 
+  * [`liga_sudoers_historico.py`](./data_simulator/liga_sudoers_historico.py) - Gera dados históricos com pedidos com data retroativas, não gera novos produtos nem novos clientes. Gera 1% de dados que serão considerados fraude para treinamento do modelo. 
+  * [`liga_sudoers_streaming.py`](./data_simulator/liga_sudoers_streaming.py) - Gera dados streamind com pedidos com data atual, gera novos clientes e registra novos pedidos. Gera 5% de dados que serão considerados fraude para treinamento do modelo. 
 
   [Vídeo Explicativo](https://youtu.be/Kc-mmy8eMcA)
 
@@ -231,10 +231,12 @@ docker exec -it postgres_liga_sudoers bash
 psql -U sudoers -d liga_sudoers -h postgres_liga_sudoers
 ```
 
-Acesso o arquivo `modelagem/datawarehouse_simulator/datawarehouse_local.sql` e execute os comandos do arquivo dentro do banco OLTP.  
+Acesse o arquivo [`modelagem/datawarehouse_simulator/datawarehouse_local.sql`](./modelagem/datawarehouse_simulator/datawarehouse_local.sql) e execute os comandos do arquivo dentro do banco OLTP.  
 
 ## Modelagem Dimensional Externa
 Vamos agora para o banco OLAP para simular o ETL e a movimentação de dados. 
+
+Os comandos SQL que carregam as dimensões e a fato nesta etapa também estão no arquivo [`modelagem/datawarehouse_simulator/datawarehouse_extern.sql`](./modelagem/datawarehouse_simulator/datawarehouse_extern.sql).
 
 ### Apagamos manualmente a tabela stg_pessoas
 ```bash
@@ -397,7 +399,7 @@ ou
 
 
 ### Rodar o ETL na interface UI
-Abra o arquivo move_pessoas, move_produtos ou move_pedidos dentro do `/files` e execute o pipeline. Os arquivos .hpl (pipelines) estão localizados no diretório `/files`. Executar o move_pedidos por último, e executar os processos pelo menos 2 vezes seguidas. 
+Abra o arquivo move_pessoas, move_produtos ou move_pedidos dentro do `/files` e execute o pipeline. Os arquivos .hpl (pipelines) estão localizados no diretório `/files`, que é a pasta [`etl_sudoers/`](./etl_sudoers) deste repositório. Executar o move_pedidos por último, e executar os processos pelo menos 2 vezes seguidas. 
 
 ### Rodar Apache Hop no terminal
 ```bash
